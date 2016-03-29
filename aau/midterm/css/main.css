@@ -26,6 +26,10 @@ body {
     bottom: 32px;
 }
 
+#top-nav .selected {
+    color: gray;
+}
+
 #top-nav ul li {
     display: inline-block;
     margin: 0 16px;
