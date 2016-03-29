@@ -147,6 +147,11 @@ h1 {
 }
 #shopping-form > div {
   margin-bottom: 24px;
-  
+
 
 }
+
+table{
+  width: 100%;
+}
+th{height: 20px;}
