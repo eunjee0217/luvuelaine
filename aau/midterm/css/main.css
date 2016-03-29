@@ -7,6 +7,12 @@ body {
     background-color: #eee;
 }
 
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.4em;
+}
+
 #top-bar {
     padding: 32px 40px;
     background-color: #0C0D0D;
@@ -84,4 +90,31 @@ body {
     font-size: 60px;
     line-height: 1.4em;
     padding: 80px;
+}
+
+.main-content-inner {
+    padding: 40px;
+    display: flex;
+    position: relative;
+}
+
+#how-it-works-slider-wrapper {
+    float: left;
+    padding: 8px 8px 0 8px;
+    background-color: lightgray;
+    border: 1px solid #888;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transform: rotate(-5deg);
+}
+
+.how-it-works-right-column {
+    padding-left: 120px;
+    float: left;
+}
+
+.how-it-works-list li {
+    list-style-type: decimal;
+    line-height: 1.4em;
+    margin: 24px;
 }
