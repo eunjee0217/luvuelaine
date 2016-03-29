@@ -11,6 +11,7 @@ h1 {
     font-weight: 500;
     font-size: 40px;
     line-height: 1.4em;
+    margin-bottom: 16px;
 }
 
 #top-bar {
@@ -94,8 +95,11 @@ h1 {
 
 .main-content-inner {
     padding: 40px;
-    display: flex;
     position: relative;
+}
+
+.flex-box {
+    display: flex;
 }
 
 #how-it-works-slider-wrapper {
@@ -106,6 +110,8 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     transform: rotate(-5deg);
+    position: relative;
+    left: 40px;
 }
 
 .how-it-works-right-column {
@@ -117,4 +123,22 @@ h1 {
     list-style-type: decimal;
     line-height: 1.4em;
     margin: 24px;
+}
+
+.gallery-img-list {
+    clear: both;
+}
+
+.gallery-img-list li {
+    float: left;
+    margin: 10px;
+}
+
+.gallery-img-list img {
+    width: 200px;
+    padding: 8px;
+    background-color: lightgray;
+    border: 1px solid #888;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
