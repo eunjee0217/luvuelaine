@@ -8,7 +8,7 @@ body {
 }
 
 #top-bar {
-    padding: 34px 40px;
+    padding: 32px 40px;
     background-color: #0C0D0D;
     color: #fff;
     opacity: 0.9;
@@ -23,7 +23,7 @@ body {
 #top-nav {
     position: absolute;
     right: 40px;
-    bottom: 34px;
+    bottom: 32px;
 }
 
 #top-nav ul li {
@@ -32,8 +32,8 @@ body {
 }
 
 .title-logo {
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
     border-radius: 8px;
     display: inline-block;
     background-color: #fff;
@@ -51,7 +51,6 @@ body {
 }
 
 .main-content {
-    padding: 40px;
     background-color: #fff;
 }
 
@@ -61,4 +60,24 @@ body {
 
 #main-footer .copyright {
     font-size: 12px;
+}
+
+/* find-my-tile */
+#find-my-tile {
+    background: url('../images/findMyTileBW.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#find-my-tile:hover {
+    background: url('../images/findMyTile.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#find-my-tile-text {
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.4em;
+    padding: 80px;
 }
