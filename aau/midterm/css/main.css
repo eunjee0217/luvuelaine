@@ -145,13 +145,13 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
-#shopping-form > div {
+#shopping-form div {
   margin-bottom: 24px;
 
 
 }
 
-table{
+.darkgray {
   width: 100%;
 }
-th{height: 20px;}
+table thead {height: 20px;}
