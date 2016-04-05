@@ -48,6 +48,10 @@ header {
 
 }
 
+.summer-audio{
+    display:none;
+}
+
 .images-wrap{
     margin-top: 64px;
     text-align: center;
