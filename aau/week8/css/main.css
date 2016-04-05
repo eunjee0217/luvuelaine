@@ -1,3 +1,7 @@
+@font-face{
+    font-family:'Josefin Slab', serif;
+}
+
 html {
     height: 100%;
 }
@@ -12,6 +16,18 @@ header {
     font-weight: 500;
     font-size: 40px;
     line-height: 1.4em;
+}
+h1{
+    font-family:'Josefin Slab', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight:bold;
+    font-size: 60px;
+    font-style:oblique;
+    color:#921;
+}
+p1{
+    font-family:'Josefin Slab', serif;
+    color:#113a64;
 }
 
 .word-meaning {
@@ -38,6 +54,31 @@ header {
     background: url('../images/musicfestivalBackground.jpg') no-repeat center center;
     background-size:cover;
 }
+
+#christmas-photo{
+    background: url('../images/christmasBackground.jpg') no-repeat center center;
+    background-size:cover;
+}
+
+#top-nav {
+    position: absolute;
+    right: 40px;
+    left: 800px;
+}
+
+#top-nav .selected {
+    color: gray;
+}
+
+#top-nav ul li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+#top-nav a:hover{
+    background-color: #f0c2ee;
+}
+
 .information{
     height: 100vh;
     margin: 0 auto;
@@ -47,6 +88,17 @@ header {
     box-shadow: 0 0 10px #888;
 
 }
+
+.column{
+    text-align:justify;
+    margin-top:30px;
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -webkit-column-rule-style: dotted;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    font-family:'Josefin Slab', serif;
+    color:#113a64;
+}
+
 
 .summer-audio{
     display:none;
