@@ -30,9 +30,20 @@ p1{
     color:#113a64;
 }
 
-.word-meaning {
-    margin-top: 32px;
+.mainpage{
+    text-align:center;
+    margin-top: 50px;
+    font-size: 130px;
 }
+
+
+.word-meaning {
+    margin-top: 64px;
+    font-family:sans-serif;
+    font-style:italic;
+    text-align: center;
+}
+
 
 #body-container {
     height: 100vh;
@@ -116,4 +127,24 @@ p1{
 
 .festival-links:hover {
     opacity: 1;
+}
+
+.gallery-img-list {
+    clear: both;
+    padding-top:50px;
+    padding-left:45px;
+}
+
+.gallery-img-list li {
+    float: left;
+    margin: 24px 8px;
+}
+
+.gallery-img-list img {
+    width: 200px;
+    padding: 8px;
+    background-color: lightgray;
+    border: 1px solid #888;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
