@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    font: normal 1em/1.4em Arial, Arial, Helvetica, sans-serif;
+    background-color: #dadada;
+}
+
+header {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.4em;
+}
+
+.word-meaning {
+    margin-top: 32px;
+}
+
+#body-container {
+    height: 100vh;
+    margin: 0 auto;
+    width: 1024px;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #888;
+}
+
+#cherryBlossom-photo {
+
+    background: url('../images/cherryblossomBackground.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+
+#musicFestival-photo{
+    background: url('../images/musicfestivalBackground.jpg') no-repeat center center;
+    background-size:cover;
+}
+.information{
+    height: 100vh;
+    margin: 0 auto;
+    width: 1024px;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #888;
+
+}
+
+.images-wrap{
+    margin-top: 64px;
+    text-align: center;
+}
+
+
+.festival-links {
+    opacity: 0.4;
+}
+
+.festival-links:hover {
+    opacity: 1;
+}
