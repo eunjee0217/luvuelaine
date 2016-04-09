@@ -88,3 +88,18 @@ a:hover {
 a:active {
 	color:#098884;
 }
+
+@media screen and (max-width: 650px) {
+	#body-container {
+		width: auto;
+	}
+	.link {
+		width:auto;
+	}
+	.maincontent{
+		width:auto;
+	}
+	#top-nav {
+		width:auto;
+	}
+}
