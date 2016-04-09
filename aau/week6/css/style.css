@@ -10,11 +10,11 @@
 	background-color:#B6B6B6;
 	width:1000px;
 	height:30px;
-	word-spacing:30pt
+	word-spacing:30pt;
 }
 
 .maincontent{
-
+width:1000px;
 }
 
 
@@ -23,20 +23,24 @@
 	text-align:left;
 	float:left;
 	padding:20px;
-	width:600px;
-	height:500px;
+	width:660px;
 }
 
 .right-column{
-	background-color:#black;
+	background-color:black;
 	float:right;
 	padding:20px;
 	width:260px;
-	height:430px;
+	height:441px;
+}
+
+.right-column p{
+	color: white;
 }
 
 
 #main-footer {
+	background-color:lightgray;
     padding: 40px;
 }
 
@@ -45,40 +49,42 @@
 }
 
 #top-nav {
-	background-color:#gray;
+	background-color: red;
 	width:1000px;
-    position: absolute;
-    bottom: 32px;
+}
+#top-nav a {
+	padding: 20px 10px;
+	display: inline-block;
 }
 
 #top-nav .selected {
-    color: gray;
+    color: #fff;
 }
 
 #top-nav ul li {
     display: inline-block;
     margin: 0 16px;
+
 }
-
-
-
-
+.logo {
+	margin-right:20px;
+	padding-bottom:58px;
+	padding-left:0px;
+	width:260px;
+	height:367px;
+	float:left;
+}
 h1 {
 	font-weignt:300;
 	font-size:30px;
 	text-align:center;
 }
-
-a:link {
-	color:#green;
-}
-
 a:visited {
-	color:gray;
+	color: white;
 }
-
 a:hover {
-	color:#980292;
+	color: yellow;
 }
 a:active {
 	color:#098884;
+}

@@ -50,7 +50,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.clearfix {
-  overflow: auto;
-  zoom: 1;
+/* http://stackoverflow.com/questions/8554043/what-is-clearfix */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
