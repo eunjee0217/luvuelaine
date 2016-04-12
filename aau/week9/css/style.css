@@ -68,6 +68,7 @@ p{
 
 
 .imageGrid {
+    padding-left: 80px;
         margin-top: 120px;
         text-align: center;
     }
@@ -83,7 +84,7 @@ p{
                 background-size: cover;
 
         }
-        .image{
+.image{
         	float: right;
             border: dotted white;
             margin-left:30px;
