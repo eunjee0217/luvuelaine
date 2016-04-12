@@ -1,0 +1,111 @@
+<style>
+
+
+body {
+        font-family: 'Raleway', sans-serif; }
+
+
+#body-container{
+    margin: auto;
+    width:1000px;}
+
+
+    ul#grid {
+        padding: 0;
+        list-style: none;
+        margin: 40px auto 0;
+        width: 666px;
+    }
+    #grid li {
+        float: left;
+        padding: 0;
+        margin: 0 4px 4px 4px;
+    }
+    #grid li a {
+        display: block;
+    }
+    #grid li a:hover {
+        opacity: 0.3;
+        filter: alpha(opacity=40); /*For IE9 and earlier */
+    }
+    #grid li img {
+        /*border: 1px dotted #555555;*/
+        padding: 5px;
+        width: 200px;
+        height: 200px;
+    }
+    .clearFix {
+        clear: both;}
+
+    .box1{  width:500px;}
+
+    }
+
+    p{
+       color: white; }
+
+
+    .imageGrid {
+        margin-top: 120px;
+        text-align: center;
+    }
+    .imageGrid h4 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .box1 p {
+        color: white;
+    }
+
+    h4{ color:white;}
+     h6{ color:white;}
+     h5{font-size: 25px;
+        color:white;}
+
+
+     body {
+                background-image: url(images/gradient.jpg);}
+               /* background-size: contain; */
+
+  .main{ width:1000px;
+       height:1000px;}
+
+
+  .logo{
+      /*  float:left;*/
+        width:70px;
+        height: 70px;
+      padding-top: 20px;
+        padding-left: 80px;
+        }
+
+
+ .nav {
+              /* float:left;*/
+              /* margin-left: 40px;*/
+              padding-left: 400px;
+                padding-top: 20px;
+                color: white;}
+
+.nav_menu {
+               float:left;
+               margin-left: 45px;
+               padding: 20px;
+                padding-bottom: 20px;
+                padding-top: 20px;
+                color: white;}
+
+            i {
+            color:blue;
+        }
+
+
+footer{
+height: 200px;}
+ /*nav {
+
+     padding-right: 90px;
+     padding-left: 400px;
+     color: white;
+    }*/
+</style>
