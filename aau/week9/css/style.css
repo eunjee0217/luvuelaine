@@ -65,7 +65,9 @@ p{
     display:block;
     font:sans-serif;
     }
-
+p i {
+            color:red;
+        }
 
 .imageGrid {
     padding-left: 80px;
