@@ -12,6 +12,7 @@ h2{
     margin-top:100px;
     margin-bottom:30px;
     color:white;
+    text-align: center;
 }
 
 .body-container{
@@ -68,9 +69,11 @@ p{
 p i {
             color:red;
         }
-
+.goToTop{
+    font-size:15px;
+}
 .imageGrid {
-    padding-left: 80px;
+        padding-left: 80px;
         margin-top: 120px;
         text-align: center;
     }
