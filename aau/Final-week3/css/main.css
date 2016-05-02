@@ -4,7 +4,7 @@
     min-height: 500px;
 }
 
-.nav-icon {
+#top-nav li a:hover {
     width: 50px;
 }
 
@@ -15,6 +15,7 @@
 #top-nav {
     text-align: center;
     padding-top: 100px;
+    position: relative;
 }
 
 #top-bar {
@@ -81,4 +82,210 @@
 #contact-icons :hover {
     color: #000;
     background: #fff;
+}
+
+#top-nav .nav-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+.nav-icon-hover {
+    position: absolute;
+    top: -450px;
+    left: calc(50% - 150px);
+    display: none;
+}
+
+.nav-icon-hover img {
+    width:300px;
+    height:400px;
+}
+
+#top-nav .nav-icon:hover .nav-icon-hover {
+    display: block;
+}
+
+#top-nav .ballet-icon {
+    background-image: url('../icons/ballet.png');
+}
+
+#top-nav .ballet-icon:hover {
+    background-image: url('../icons/ballet-color.png');
+}
+
+#top-nav .camera-icon {
+    background-image: url('../icons/camera.png');
+}
+
+#top-nav .camera-icon:hover {
+    background-image: url('../icons/camera-color.png');
+}
+
+#top-nav .cloth-icon {
+    background-image: url('../icons/cloth.png');
+}
+
+#top-nav .cloth-icon:hover {
+    background-image: url('../icons/cloth-color.png');
+}
+
+#top-nav .coffee-icon {
+    background-image: url('../icons/coffee.png');
+}
+
+#top-nav .coffee-icon:hover {
+    background-image: url('../icons/coffee-color.png');
+}
+
+#top-nav .camera-icon {
+    background-image: url('../icons/camera.png');
+}
+
+#top-nav .camera-icon:hover {
+    background-image: url('../icons/camera-color.png');
+}
+
+#top-nav .cook-icon {
+    background-image: url('../icons/cook.png');
+}
+
+#top-nav .cook-icon:hover {
+    background-image: url('../icons/cook-color.png');
+}
+
+#top-nav .cosmetic-icon {
+    background-image: url('../icons/cosmetic.png');
+}
+
+#top-nav .cosmetic-icon:hover {
+    background-image: url('../icons/cosmetic-color.png');
+}
+
+#top-nav .dish-icon {
+    background-image: url('../icons/dish.png');
+}
+
+#top-nav .dish-icon:hover {
+    background-image: url('../icons/dishcolor.png');
+}
+
+#top-nav .glasses-icon {
+    background-image: url('../icons/glasses.png');
+}
+
+#top-nav .glasses-icon:hover {
+    background-image: url('../icons/glasses-color.png');
+}
+
+#top-nav .iphone-icon {
+    background-image: url('../icons/iphone.png');
+}
+
+#top-nav .iphone-icon:hover {
+    background-image: url('../icons/iphone-color.png');
+}
+
+#top-nav .magnetic-icon {
+    background-image: url('../icons/magnetic.png');
+}
+
+#top-nav .magnetic-icon:hover {
+    background-image: url('../icons/magnetic-color.png');
+}
+
+#top-nav .photos-icon {
+    background-image: url('../icons/photos.png');
+}
+
+#top-nav .photos-icon:hover {
+    background-image: url('../icons/photos-color.png');
+}
+
+#top-nav .ring-icon {
+    background-image: url('../icons/ring.png');
+}
+
+#top-nav .ring-icon:hover {
+    background-image: url('../icons/ring-color.png');
+}
+
+#top-nav .shoes-icon {
+    background-image: url('../icons/shoes.png');
+}
+
+#top-nav .shoes-icon:hover {
+    background-image: url('../icons/shoes-color.png');
+}
+
+#top-nav .travel-icon {
+    background-image: url('../icons/travel.png');
+}
+
+#top-nav .travel-icon:hover {
+    background-image: url('../icons/travel-color.png');
+}
+
+#top-nav .wine-icon {
+    background-image: url('../icons/wine.png');
+}
+
+#top-nav .wine-icon:hover {
+    background-image: url('../icons/wine-color.png');
+}
+
+#top-nav .workout-icon {
+    background-image: url('../icons/workout.png');
+}
+
+#top-nav .workout-icon:hover {
+    background-image: url('../icons/workout-color.png');
+}
+
+#top-nav .media-icon {
+    background-image: url('../icons/media.png');
+}
+
+#top-nav .media-icon:hover {
+    background-image: url('../icons/media-color.png');
+}
+
+#top-nav .laptop-icon {
+    background-image: url('../icons/laptop.png');
+}
+
+#top-nav .laptop-icon:hover {
+    background-image: url('../icons/laptop-color.png');
+}
+
+#top-nav .bag-icon {
+    background-image: url('../icons/bag.png');
+}
+
+#top-nav .bag-icon:hover {
+    background-image: url('../icons/bag-color.png');
+}
+
+#top-nav .fruits-icon {
+    background-image: url('../icons/fruits.png');
+}
+
+#top-nav .fruits-icon:hover {
+    background-image: url('../icons/fruits-color.png');
+}
+
+.image-size img {
+    width: 200px;
+    height: 300px;
+}
+
+.photo {
+    width: 400px;
+    float: left;
+}
+
+.photo img, .photo p {
+    display: table-cell;
+    vertical-align: middle;
 }
