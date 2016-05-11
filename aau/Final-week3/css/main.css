@@ -115,12 +115,12 @@
     background-image: url('../icons/ballet-color.png');
 }
 
-#top-nav .camera-icon {
-    background-image: url('../icons/camera.png');
+#top-nav .snowboard-icon {
+    background-image: url('../icons/snowboard.png');
 }
 
-#top-nav .camera-icon:hover {
-    background-image: url('../icons/camera-color.png');
+#top-nav .snowboard-icon:hover {
+    background-image: url('../icons/snowboard-color.png');
 }
 
 #top-nav .cloth-icon {
@@ -168,7 +168,7 @@
 }
 
 #top-nav .dish-icon:hover {
-    background-image: url('../icons/dishcolor.png');
+    background-image: url('../icons/dish-color.png');
 }
 
 #top-nav .glasses-icon {
@@ -187,12 +187,12 @@
     background-image: url('../icons/iphone-color.png');
 }
 
-#top-nav .magnetic-icon {
-    background-image: url('../icons/magnetic.png');
+#top-nav .flower-icon {
+    background-image: url('../icons/flower.png');
 }
 
-#top-nav .magnetic-icon:hover {
-    background-image: url('../icons/magnetic-color.png');
+#top-nav .flower-icon:hover {
+    background-image: url('../icons/flower-color.png');
 }
 
 #top-nav .photos-icon {
@@ -275,17 +275,52 @@
     background-image: url('../icons/fruits-color.png');
 }
 
-.image-size img {
-    width: 200px;
-    height: 300px;
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-.photo {
-    width: 400px;
+.fixed-center {
+    position:relative;
+}
+
+.image {
     float: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top:80px;
+    display:inline;
 }
 
-.photo img, .photo p {
-    display: table-cell;
-    vertical-align: middle;
+.container {
+max-width: 1100px;
+margin: auto;
+margin-top: auto;
+background-color: white;
+}
+
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+h1 i {
+    color:red;
+}
+
+p {
+    display:block;
+    text-indent: 50px;
+    padding: 170px;
+    display: block;
+    font-size: 20px;
+    margin-left: 400px;
+    padding-left: 100px;
+    font-style: inherit;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 200%;
 }
