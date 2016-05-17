@@ -13,6 +13,7 @@
 }
 
 #top-nav {
+    background-color: white;
     text-align: center;
     padding-top: 100px;
     position: relative;
@@ -65,6 +66,13 @@
     padding: 20px;
     text-align:center;
     margin-top:20px;
+}
+
+#aboutme-footer {
+    font-family: 'Slabo 27px', serif;
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
 }
 
 #contact-icons a{
@@ -323,4 +331,45 @@ p {
     font-family: sans-serif;
     font-weight: 300;
     line-height: 200%;
+}
+
+.body{
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+.introduction-container {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: auto;
+    background-color: white;
+}
+
+.img {
+   display: block;
+   margin: 0px auto;
+   text-align: center;
+   padding: 100px 0px;
+}
+
+.introduction {
+    text-align: center;
+    padding-bottom:50px;
+}
+
+.introduction p {
+
+    font-size: 20px;
+    color: rgba(99, 99, 99, 1);
+    margin: 0px;
+    font-style: inherit;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 200%;
+    padding: 0px;
+}
+
+.name {
+    color: #ffffff;
+    background-color: #ffbcff;
 }
