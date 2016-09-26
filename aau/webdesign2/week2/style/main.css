@@ -54,12 +54,12 @@ a {
     color: #474646;
 }
 
-.menu li:hover a {
+.menu li a:hover {
     color: #030438;
     font-weight: bold;
 }
 
-.menu li:visited a {
+.menu li a:visited {
     color: #fff;
 }
 
