@@ -4,17 +4,20 @@
     <meta charset="utf-8" />
     <title> Where I visited </title>
 
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/main.css" />
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-        <header id="top-bar">
-            <h1> <a href="index.html">Vacation Travel</a></h1>
+    <header id="top-bar">
+        <div class="top-bar-inner clearfix">
+            <div class="logo">
+                <a href="index.html">Vacation Travel</a>
+            </div>
             <nav id="top-nav">
-                <ul>
+                <ul class="menu">
                     <li>
                         <a href="views/hongkong.html">HongKong</a>
                     </li>
@@ -29,33 +32,36 @@
                     </li>
                 </ul>
             </nav>
-		</header>
+        </div>
+	</header>
 
-        <section>
+    <section>
+        <div class="image-wrap">
+            <img src="image/hongkong.jpg" />
+        </div>
+        <div class="image-list-wrap">
+            <span class="image-list">
+                <img src="image/taipei.jpg" />
+            </span>
+            <span class="image-list">
+                <img src="image/japan.jpg" />
+            </span>
+            <span class="image-list">
+                <img src="image/jeju.jpg" />
+            </span>
+        </div>
+    </section>
 
-            <div class="image-wrap">
-                <img src="image/hongkong.jpg" />
-            </div>
-            <div>
-                <span class="image-list">
-                    <img src="image/hongkong.jpg" />
-                </span>
-                <span class="image-list">
-                    <img src="image/hongkong.jpg" />
-                </span>
-                <span class="image-list">
-                    <img src="image/hongkong.jpg" />
-                </span>
-
-            </div>
-        </section>
-        <footer>
+    <footer>
+        <div class="footer-inner clearfix">
             <small class="copyright">Copyright &copy; 2016 Eunjee Kim</small>
-				<div id="contact-icons">
-	              	<a href="https://www.facebook.com/Jeeyaholic" class="social_contact">facebook</a>
-				    <a href="https://www.instagram.com/_elainekim" class="social_contact">Instagram</a>
-				    <a href="http://www.google.com"
-	              	class="social_contact">Google+</a>
-        </footer>
+			<div id="contact-icons">
+              	<a href="https://www.facebook.com/Jeeyaholic" class="social_contact">facebook</a>
+			    <a href="https://www.instagram.com/_elainekim" class="social_contact">Instagram</a>
+			    <a href="http://www.google.com"
+              	class="social_contact">Google+</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
