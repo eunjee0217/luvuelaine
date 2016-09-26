@@ -93,8 +93,64 @@ section a:hover {
     width: 100%;
 }
 
-/* FOOTER */
+#imagewrap {
+    max-width: 960px;
+    margin: 40px auto;
+}
 
+#imagewrap h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #001f42;
+    text-decoration: underline;
+}
+
+#imagewrap p {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #a9b4c1;
+}
+
+#image-grid {
+    max-width: 960px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image-grid li {
+    width: 33.333%;
+    position: relative;
+}
+
+.img-overlay {
+    background-color: #081a2f;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#image-grid li:hover .img-overlay {
+    opacity: 0.8;
+}
+
+.grid-img {
+    width: 100%;
+}
+
+/* FOOTER */
 footer {
     background-color: #e5e6eb;
 	width: 100%;
