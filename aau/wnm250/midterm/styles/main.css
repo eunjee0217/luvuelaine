@@ -12,6 +12,7 @@ a {
     text-decoration: none;
 }
 
+
 /* navigation */
 #top-bar {
     position: fixed;
@@ -31,6 +32,16 @@ a {
     margin: 0 1rem;
 }
 
+#top-bar nav a:hover {
+    color: #030438;
+    font-weight: bolder;;
+}
+
+#top-bar nav a.selected {
+    color: #030438;
+    font-weight: bolder;
+}
+
 
 /* Scene */
 .scene {
@@ -41,6 +52,7 @@ a {
     background-size: cover;
 }
 
+/*scene photo background*/
 .scene-one {
     background-image: url("../image/travel1.jpg");
 }
@@ -55,6 +67,40 @@ a {
 
 .scene-four {
     background-image: url("../image/travel4.jpg");
+}
+
+.scene-five {
+    background-image: url("../image/family1.jpg");
+}
+
+.scene-six {
+    background-image: url("../image/family2.jpg");
+}
+
+.scene-seven {
+    background-image: url("../image/family3.jpg");
+}
+
+.scene-eight {
+    background-image: url("../image/family4.jpg");
+}
+
+.scene-nine {
+    background-image: url("../image/project1.jpg");
+}
+
+.scene-ten {
+    background-image: url("../image/project2.jpg");
+}
+
+.scene-eleven {
+    background-image: url("../image/project3.jpg");
+}
+
+.scene-twelve {
+    background-image: url("../image/project4.jpg");
+    background-size: cover;
+
 }
 
 .scene-captions {
@@ -103,6 +149,27 @@ a {
 }
 
 /*Home page*/
+.textbox {
+    width:1024px;
+    height: 790px;
+}
+
+.image-list .text {
+    position: relative;
+    bottom: 200px;
+    width: 50%;
+    padding-left: 53%;
+    visibility: hidden;
+    color: #fff;
+}
+.image-list .text p {
+    color: #fff;
+}
+
+.image-list:hover .text {
+    visibility: visible;
+}
+
 .image-list img{
     width: 50%;
     float: left;
@@ -137,3 +204,20 @@ a {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
+
+.footer {
+  padding-top: 2px;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+
+.image-list img{
+        width: 100%;
+        display: inline-block;
+    }
+  }
