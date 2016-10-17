@@ -1,0 +1,139 @@
+/* Text */
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* navigation */
+#top-bar {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem;
+    z-index: 10;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 5px #888888;
+}
+
+#top-bar nav {
+    float: right;
+}
+
+#top-bar nav span {
+    margin: 0 1rem;
+}
+
+
+/* Scene */
+.scene {
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.scene-one {
+    background-image: url("../image/travel1.jpg");
+}
+
+.scene-two {
+    background-image: url("../image/travel2.jpg");
+}
+
+.scene-three {
+    background-image: url("../image/travel3.jpg");
+}
+
+.scene-four {
+    background-image: url("../image/travel4.jpg");
+}
+
+.scene-captions {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scene-captions-animation {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    animation: move 4s;
+}
+
+@keyframes move {
+    from { left: 50% }
+}
+
+/* Scene content */
+.scene-content-box {
+    float: right;
+    background-color: #fff;
+    width: 50vw;
+    height: 94.2vh;
+    opacity: 0.8;
+    animation: opacity 2s;
+    padding: 0 2.5rem;
+    box-sizing: border-box;
+}
+
+.scene-content-box p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes opacity {
+    from { opacity: 0 }
+}
+
+/*Home page*/
+.image-list img{
+    width: 50%;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.image-list img + .image-list img {
+    width: 50%;
+    float: left;
+}
+
+.image-list img + .image-list img + .image-list img {
+    width: 50%;
+    float: left;
+}
+
+.image-list img + .image-list img + .image-list img + .image-list img {
+    width: 50%;
+    float: left;
+}
+
+.image-background .image-list  img {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+            filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+       -moz-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+}
+
+.image-background .image-list:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
