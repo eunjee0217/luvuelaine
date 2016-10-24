@@ -53,6 +53,7 @@ a {
 
 #top-bar .selected {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 #top-bar nav a:hover {
