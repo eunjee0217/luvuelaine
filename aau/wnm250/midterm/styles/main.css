@@ -53,7 +53,6 @@ a {
 
 #top-bar .selected {
     font-weight: bold;
-    text-decoration: underline;
 }
 
 #top-bar nav a:hover {
@@ -251,6 +250,10 @@ a {
         margin: 1rem 0;
         display: block;
         text-align: center;
+    }
+
+    #top-bar .selected {
+        text-decoration: underline;
     }
 
     .scene-content-box {
