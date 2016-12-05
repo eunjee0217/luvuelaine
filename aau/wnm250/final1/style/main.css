@@ -1,0 +1,546 @@
+/* default */
+.cf {
+    zoom: 1;
+}
+.cf::before,
+.cf::after {
+    display: table;
+    content: '';
+}
+.cf::after {
+    clear: both;
+}
+
+.main-section:nth-child(2n+3) {
+    background-color: #fafafa;
+}
+
+html, body {
+    font-family: "Helvetica Neue";
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/* NAV */
+.sticky-nav {
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: 80px;
+    padding: 2rem;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 0 10px 5px rgba(0,0,0, 0.2);
+    box-sizing: border-box;
+}
+
+.main-nav-wrapper {
+    display: inline;
+}
+
+.hamburger-nav {
+    display: none;
+}
+
+.sticky-nav .logo {
+    color: #0a0a0a;
+}
+
+/* home */
+#home {
+    background: url('https://i.kinja-img.com/gawker-media/image/upload/s--HGQPoMJx--/c_scale,fl_progressive,q_80,w_800/1860ucsg9w5nzjpg.jpg') no-repeat center center;
+    background-size: 100%;
+    height: 300px;
+    color: #fff;
+    margin-top: 80px;
+}
+
+#home .logo,
+#home .main-nav {
+    display: inline-block;
+}
+
+#home .main-nav {
+    float: right;
+}
+
+#home .main-nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+#home .main-nav li a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+#home .home-content {
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.get-started {
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    display: inline-block;
+}
+
+.main-section {
+    padding: 3rem;
+}
+
+.main-section header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* About us */
+.column-2 {
+    column-count: 2;
+}
+
+/* Slider */
+.about-us-slider-wrapper {
+    margin-top: 3rem;
+}
+
+.about-us-slider img {
+    width: 250px;
+    height: 250px;
+}
+
+.flex-control-nav {
+    display: none;
+}
+
+.about-us-slider-cover {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: gray;
+    position: relative;
+}
+
+.flex-direction-nav li {
+    position: absolute;
+    top: 50%;
+    padding: 1rem;
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.flex-direction-nav > li:hover {
+    background-color: #cc3300;
+    cursor: pointer;
+}
+
+.flex-prev {
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+}
+
+.flex-next {
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+}
+
+.flex-prev-li {
+    left: 0;
+}
+
+.flex-next-li {
+    right: 0;
+}
+
+.social-footer {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.about-us-footer {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.about-us-footer span {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.services-section {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services-section > div {
+    width: 33.333%;
+}
+
+.services-section h4 {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.services-section p {
+    font-size: 0.8rem;
+}
+
+.marker {
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: red;
+    border: 2px solid gray;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+/* restaurants */
+.restaurants-nav {
+    text-align: center;
+}
+
+.restaurants-nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.restaurants-images {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.restaurants-image {
+    width: 400px;
+    height: 300px;
+    background-color: gray;
+    margin: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.restaurants-image:hover {
+    /*opacity: 0.5;*/
+}
+
+.restaurants-image:hover > div {
+    display: block;
+}
+
+.hover-content {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    transform: translateY(-50%);
+    top: 50%;
+    display: none;
+}
+
+.hover-content h6 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 0.5rem;
+}
+
+.hover-content p {
+    margin-bottom: 1rem;
+}
+
+.view-button {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #cc3300;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.hover-background {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #cc3300;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+.restaurants-images .img-01 {
+    background-image: url('../img/food1.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* Event */
+
+.event-wrap {
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+}
+
+.event-image {
+    float: left;
+}
+
+.event-image img {
+    width: 400px;
+}
+
+.event-content {
+    margin-left: 400px;
+    padding-left: 2rem;
+}
+
+.event-date {
+    border: 2px solid #aeaeae;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.event-header {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.event-header h5 {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.event-content-header {
+    margin-bottom: 1.5rem;
+}
+
+.event-time {
+    font-size: 15px;
+}
+
+.event-time span {
+    color: red;
+}
+
+.event-content > p {
+    line-height: 150%;
+}
+
+.event-checkout {
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* ETC */
+.deco-line {
+    width: 3rem;
+    display: block;
+    border-top: 2px solid #000;
+    margin: 0 auto 1rem;
+}
+
+/*ad-bar*/
+#ad-bar {
+        background-image: url(../img/food1.jpg);
+        background-size: 100%;
+        height: 200px;
+}
+
+#ad-bar .ad-bar .main-section > h2 {
+    color: #fff;
+}
+.mail {
+    padding-right: 21.5rem;
+    margin: 0 25% 3rem;
+}
+.message {
+    display: block;
+    padding: 0 34rem 7rem 0;
+    margin-left: 25%;
+}
+
+
+/* Tablet size */
+@media (max-width: 768px) {
+    #home {
+        margin-top: 51px;
+    }
+
+    #home .main-nav {
+            font-size: 14px;
+    }
+
+    .sticky-nav {
+        padding: 1rem;
+        height: 50px;
+    }
+
+    .column-2 {
+        -webkit-column-gap: 3rem; /* Chrome, Safari, Opera */
+        -moz-column-gap: 3rem; /* Firefox */
+        column-gap: 3rem;
+    }
+
+    .restaurants-image {
+        width: 300px;
+    }
+
+    .event-image img {
+        width: 500px;
+    }
+
+    .event-header {
+        margin: 5rem auto 0 2rem;
+    }
+
+    .event-content > p {
+        display: none;
+    }
+
+    .event-date {
+        margin-left: 3rem;
+    }
+
+    .event-time {
+        font-size: 11px;
+    }
+
+    .event-checkout {
+        margin: 4rem auto auto 3rem;
+    }
+    .mail {
+        padding-right: 15.5rem;
+        margin-left: 25%;
+    }
+    .message {
+        display: block;
+        padding: 0 15rem 7rem 0;
+        margin-left: 25%;
+    }
+    }
+
+
+
+
+
+
+/* Mobile size */
+@media (max-width: 525px) {
+    #home .main-nav {
+        float: left;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0 5px 5px 0 rgba(0,0,0, 0.2);
+    }
+
+    #home .main-nav li {
+        display: block;
+        padding: 1rem;
+    }
+
+    .main-nav-wrapper {
+        float: left;
+        margin-right: 1rem;
+    }
+
+    .hamburger-nav {
+        color: #000;
+        display: inline-block;
+    }
+
+    .column-2 {
+        display: none;
+    }
+
+    .services-section p {
+        display: none;
+    }
+
+    .restaurants-nav {
+        display: none;
+    }
+
+    .main-section {
+        padding: 0.5rem;
+    }
+
+    .main-section header {
+        padding-top: 26px;
+    }
+
+    #ad-bar {
+        height: 128px;
+    }
+
+    .sec-deco-line {
+        width: 21rem;
+        display: block;
+        border-top: 2px solid #000;
+        margin: 0 auto 3.5rem;
+    }
+
+    .event-wrap {
+        max-width: 500px;
+    }
+
+    .event-content {
+        max-width: 500px;
+        margin-left: 280px;
+    }
+
+    .event-header {
+        margin: 0.5rem 0 0 0.5rem;
+        font-size: 14px;
+    }
+
+    .event-header h5 {
+        margin-bottom: 1rem;
+        font-size: 13px;
+    }
+
+    .event-image img {
+        width: 300px;
+    }
+
+    .event-checkout {
+        display: none;
+    }
+
+    .event-date {
+        width: 51px;
+        padding: 0.5rem 0;
+        margin: 1rem 0 3.5rem 2rem;
+    }
+
+    .event-time {
+        font-size: 10px;
+    }
+
+    .event-time span {
+        font-size: 10px;
+    }
+
+}
