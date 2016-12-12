@@ -444,8 +444,12 @@ h2 {
         height: 200px;
 }
 
-#ad-bar .ad-bar .main-section > h2 {
+.ad-bar-content {
+    margin-top: 10%;
     color: #fff;
+    font-size: 1.5rem;
+    line-height: 150%;
+    background-color: black;
 }
 
 /*review*/
@@ -718,6 +722,8 @@ h2 {
     #ad-bar {
         height: 128px;
     }
+
+
     /*events*/
     .sec-deco-line {
         width: 21rem;
@@ -768,6 +774,10 @@ h2 {
 
     .event-time span {
         font-size: 10px;
+    }
+
+    .ad-bar-content {
+        display: none;
     }
 
 }
