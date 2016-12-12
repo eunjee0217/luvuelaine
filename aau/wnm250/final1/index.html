@@ -41,8 +41,8 @@
         </nav>
         <div class="home-content">
             <h1>WELCOME TO SFIC</h1>
-            <p>SFIC is sjdflksdjflk</p>
-            <a class="get-started">Get Started</a>
+            <p>SFIC is popular Web portal in San Francisco.</p>
+            <a href="#about" class="get-started">Get Started</a>
         </div>
     </section>
     <section id="about" class="main-section">
@@ -74,15 +74,14 @@
                 <div class="about-us-slider-cover">
                     <div class="flexslider about-us-slider">
                         <ul class="slides">
-                          <li><img src="img/food1.jpg" /></li>
-                          <li><img src="img/food1.jpg" /></li>
-                          <li><img src="img/food1.jpg" /></li>
+                          <li><img src="img/image1.jpg" /></li>
+                          <li><img src="img/image2.jpg" /></li>
+                          <li><img src="img/image3.jpg" /></li>
                         </ul>
                     </div>
                     <div class="social-footer">
-                        <span>f</span>
-                        <span>t</span>
-                        <span>g+</span>
+                        <a href="https://www.instagram.com/_elainekim/"><span><img src="img/instagram_logo.png" class="social-image" /></span></a>
+                        <a href="http://www,facebook.com/jeeyaholic"><span><img src="img/facebook_logo.png" class="social-image" /></span></a>
                     </div>
                 </div>
                 <p class="about-us-footer">
@@ -93,19 +92,19 @@
         </div>
         <div class="services-section">
             <div>
-                <span class="marker">R</span>
-                <h4>sdfjksdhkf</h4>
-                <p>sdkjfhskdjfhskjdfhskjdfhsdkjf</p>
+                <a href="#restaurants"><span class="marker">R</span></a>
+                <a href="#restaurants" class="servies-section-title"><h4>Restaurants</h4></a>
+                <p>Restaurant Suggestions</p>
             </div>
             <div>
-                <span class="marker">&check;</span>
-                <h4>sdfjksdhkf</h4>
-                <p>sdkjfhskdjfhskjdfhskjdfhsdkjf</p>
+                <a href="#events"><span class="marker">&check;</span></a>
+                <a href="#events" class="servies-section-title"><h4>Events</h4></a>
+                <p>Things to do</p>
             </div>
             <div>
-                <span class="marker">?</span>
-                <h4>sdfjksdhkf</h4>
-                <p>sdkjfhskdjfhskjdfhskjdfhsdkjf</p>
+                <a href="#contact"><span class="marker">?</span></a>
+                <a href="#contact" class="servies-section-title"><h4>Question</h4></a>
+                <p>Ask questions, Get answers</p>
             </div>
         </div>
     </section>
@@ -114,86 +113,110 @@
             <h2>Restaurants</h2>
             <span class="deco-line"></span>
             <ul class="restaurants-nav">
-                <li>All</li>
-                <li>Chinese</li>
-                <li>Korean</li>
-                <li>Japanese</li>
-                <li>Pizza &amp; Hamburger</li>
-                <li>ETC.</li>
+                <li>
+                    <a class="nav-link" name="rest-chinese">Chinese</a>
+                </li>
+                <li>
+                    <a class="nav-link" name="rest-korean">Korean</a>
+                </li>
+                <li>
+                    <a class="nav-link" name="rest-japanese">Japanese</a>
+                </li>
+                <li>
+                    <a class="nav-link" name="rest-fastfood">Pizza &amp; Hamburger</a>
+                </li>
+                <li>
+                    <a class="nav-link" name="rest-seafood">Seafood</a>
+                </li>
+                <li>
+                    <a class="nav-link" name="rest-steak">Steak</a>
+                </li>
+                <li>
+                    <a class="nav-link" name="rest-Oyster">Oyster</a>
+                </li>
+                <li>
+                    <a class="nav-link" name="rest-brunch">Brunch</a>
+                </li>
+                <li>
+                    <a class="nav-link" name="rest-bakery">Bakery</a>
+                </li>
             </ul>
         </header>
         <div class="restaurants-images">
             <!-- Loop this  -->
-            <div class="restaurants-image img-01">
+            <div id="rest-seafood" class="restaurants-image img-01">
                 <div class="hover-background"></div>
                 <div class="hover-content">
-                    <h6>Title</h6>
-                    <p>sub title</p>
-                    <a class="view-button">VIEW ❯</a>
+                    <h6>Swan Oyster Depot</h6>
+                    <p>Seafood Restaurant</p>
+                    <a class="view-button" about="Fish market and Seafood" address="1517 Polk St, San Francisco, CA 94109" review="4.1" price="$$$">VIEW ❯</a>
                 </div>
             </div>
-            <div class="restaurants-image img-01">
+            <div id="rest-chinese" class="restaurants-image img-02">
                 <div class="hover-background"></div>
                 <div class="hover-content">
-                    <h6>Title</h6>
-                    <p>sub title</p>
-                    <a class="view-button">VIEW ❯</a>
+                    <h6>Yank Sing</h6>
+                    <p>Chinese Restaurant</p>
+                    <a class="view-button" about="Dimsum" address="101 Spear St
+                    San Francisco, CA 94105
+                    b/t Mission St & Howard St
+                    Financial District, SoMa, South Beach" review="3.7" price="$$">VIEW ❯</a>
                 </div>
             </div>
-            <div class="restaurants-image img-01">
+            <div id="rest-japanese" class="restaurants-image img-03">
                 <div class="hover-background"></div>
                 <div class="hover-content">
-                    <h6>Title</h6>
-                    <p>sub title</p>
-                    <a class="view-button">VIEW ❯</a>
+                    <h6>Kusakebe</h6>
+                    <p>Japanese Restaurant</p>
+                    <a class="view-button" about="Sushi" address="584 Washington St, San Francisco, CA 94111" review="4.8" price="$$$$">VIEW ❯</a>
                 </div>
             </div>
-            <div class="restaurants-image img-01">
+            <div id="rest-steak" class="restaurants-image img-04">
                 <div class="hover-background"></div>
                 <div class="hover-content">
-                    <h6>Title</h6>
-                    <p>sub title</p>
-                    <a class="view-button">VIEW ❯</a>
+                    <h6>Epic Roasthouse</h6>
+                    <p>Steak House</p>
+                    <a class="view-button" about="Steak" address="369 The Embarcadero, San Francisco, CA 94105" review="4.1" price="$$$">VIEW ❯</a>
                 </div>
             </div>
-            <div class="restaurants-image img-01">
+            <div id="rest-oyster"class="restaurants-image img-05">
                 <div class="hover-background"></div>
                 <div class="hover-content">
-                    <h6>Title</h6>
-                    <p>sub title</p>
-                    <a class="view-button">VIEW ❯</a>
+                    <h6>Hog Island</h6>
+                    <p>Oyster Bar Restaurant</p>
+                    <a class="view-button" about="Oyster" address="Ferry Building, 1 Ferry Building, San Francisco, CA 94111" review="4.4" price="$$">VIEW ❯</a>
                 </div>
             </div>
-            <div class="restaurants-image img-01">
+            <div id="rest-fastfood" class="restaurants-image img-06">
                 <div class="hover-background"></div>
                 <div class="hover-content">
-                    <h6>Title</h6>
-                    <p>sub title</p>
-                    <a class="view-button">VIEW ❯</a>
+                    <h6>In-N-Out Burger</h6>
+                    <p>Fast Food Restaurant</p>
+                    <a class="view-button" about="Hamburger" address="Anchorage Square, 333 Jefferson St, San Francisco, CA 94133" review="4.1" price="$">VIEW ❯</a>
                 </div>
             </div>
-            <div class="restaurants-image img-01">
+            <div id="rest-korean" class="restaurants-image img-07">
                 <div class="hover-background"></div>
                 <div class="hover-content">
-                    <h6>Title</h6>
-                    <p>sub title</p>
-                    <a class="view-button">VIEW ❯</a>
+                    <h6>Spoon Korean Bistro</h6>
+                    <p>Korean Restaurant</p>
+                    <a class="view-button" about="Bulgogi" address="933 Ashby Ave, Berkeley, CA 94710" review="4.4" price="$">VIEW ❯</a>
                 </div>
             </div>
-            <div class="restaurants-image img-01">
+            <div id="rest-brunch" class="restaurants-image img-08">
                 <div class="hover-background"></div>
                 <div class="hover-content">
-                    <h6>Title</h6>
-                    <p>sub title</p>
-                    <a class="view-button">VIEW ❯</a>
+                    <h6>Blackwood</h6>
+                    <p>American Restaurant</p>
+                    <a class="view-button" about="Hot stone bowl" address="2150 Chestnut St, San Francisco, CA 94123" review="4.3" price="$$">VIEW ❯</a>
                 </div>
             </div>
-            <div class="restaurants-image img-01">
+            <div id="rest-bakery" class="restaurants-image img-09">
                 <div class="hover-background"></div>
                 <div class="hover-content">
-                    <h6>Title</h6>
-                    <p>sub title</p>
-                    <a class="view-button">VIEW ❯</a>
+                    <h6>Mr. Holmes Bakehouse</h6>
+                    <p>Bakery</p>
+                    <a class="view-button" about="Cruffin" address="1042 Larkin St, San Francisco, CA 94109" review="4.3" price="$">VIEW ❯</a>
                 </div>
             </div>
         </div>
@@ -216,7 +239,7 @@
             <!-- Start Loop this  -->
             <div class="event-wrap cf">
                 <div class="event-image">
-                    <img src="img/tahoe-cabin-01.jpg" />
+                    <img src="img/festival1.jpg" />
                 </div>
                     <div class="event-content">
                         <div class="event-content-header">
@@ -239,13 +262,13 @@
                             Nam ultrices quam justo, eu tincidunt lectus tempor quis.
                             In rhoncus nunc ut risus auctor, eu placerat nisi placerat.
                         </p>
-                        <a herf="#" class="event-checkout">Check out</a>
+                        <p class="event-checkout">Check out the website</p>
                     </div>
                 </div>
             <span class="sec-deco-line"></span>
                 <div class="event-wrap cf">
                     <div class="event-image">
-                        <img src="img/tahoe-cabin-01.jpg" />
+                        <img src="img/festival2.jpg" />
                     </div>
                     <div class="event-content">
                         <div class="event-content-header">
@@ -268,7 +291,7 @@
                             Nam ultrices quam justo, eu tincidunt lectus tempor quis.
                             In rhoncus nunc ut risus auctor, eu placerat nisi placerat.
                         </p>
-                        <a herf="#" class="event-checkout">Check out</a>
+                        <p class="event-checkout">Check out the website</p>
                     </div>
                 </div>
             <!-- End Loop this  -->
@@ -276,19 +299,55 @@
     </section>
     <section id="reviews" class="main-section">
         <header>
-            <h2>Comments</h2>
+            <h2>Reviews</h2>
         </header>
         <div>
             <!-- Start Loop this -->
             <div>
-                [img]
-                <div>
-                    <p>Thank you SFIC! It was amazing travel with you!</p>
-                    <p>Alex Bae, South Korea</p>
+                <div class="review-slider-cover">
+                    <div class="flexslider review-slider">
+                      <ul class="slides">
+                        <li>
+                            <div class="cf">
+                                <img src="img/profile1.jpg" />
+                                <div class="review-content">
+                                    <p class="strong">Definitely use <span class="review-logo">SFIC</span>!</p>
+                                    <p>
+                                        It was amazing travel with you!
+                                    </p>
+                                    <p>Catherine Kim, London</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cf">
+                                <img src="img/profile2.jpg" />
+                                <div class="review-content">
+                                    <p class="strong">A Great Travel with <span class="review-logo">SFIC</span>!</p>
+                                    <p>
+                                        It was amazing travel with you!
+                                    </p>
+                                    <p>Mijin Kim, South Korea</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cf">
+                                <img src="img/profile3.jpg" />
+                                <div class="review-content">
+                                    <p class="strong">Thank you <span class="review-logo">SFIC</span>!</p>
+                                    <p>
+                                        It was amazing travel with you!
+                                    </p>
+                                    <p>Alex Bae, San Francisco</p>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+                    </div>
                 </div>
             </div>
             <!-- End Loop this -->
-            <span>bullet point</span>
         </div>
     </section>
     <section id="contact" class="main-section">
@@ -296,19 +355,28 @@
             <h2>Contact Us</h2>
             <h3>If you have a prodsklfjlsdf</h3>
         </header>
-        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-            <input class="mail" type="text" placeholder="Your E-mail"></input>
-            <textarea class="message" rows="4" placeholder="Write your message"></textarea>
-            <button type="submit" value="send">Send Message</button>
+        <form action="mailto:Kimej940217@gmail.com" method="post" enctype="text/plain">
+            <input class="mail" type="text" name="email" placeholder="Your E-mail"></input>
+            <textarea class="message" rows="4" name="message" placeholder="Write your message"></textarea>
+            <button class="send-button" type="submit" value="send">Send Message</button>
         </form>
     </section>
     <footer id="footer">
-        <span class="deco-line"></span>
-        <span>
-            Academy Of skdfskjdfh
-        </span>
+        <p>
+            Academy Of Art University / Elaine Kim
+        </p>
     </footer>
+    <div id="modal-wrapper">
+        <div id="modal">
+            <a class="close-button"></a>
+            <div id="modal-content">
+
+            </div>
+        </div>
+    </div>
     <script src="js/autoScroll.js"></script>
     <script src="js/hamburgerNav.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/restNav.js"></script>
 </body>
 </html>
