@@ -82,7 +82,12 @@ h2 {
 #home .home-content {
     text-align: center;
     position: relative;
-    top: 30%;
+    top: 40%;
+}
+
+.home-content > h1 {
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 .get-started {
@@ -322,6 +327,12 @@ h2 {
     background-position: 50% 50%;
 }
 
+.first-photo {
+    margin-top: 2rem;
+    font-size: 16px;
+    color: #ff8f4f;
+}
+
 .img-01 {
     background-image: url('../img/food1.jpg');
 }
@@ -454,7 +465,7 @@ h2 {
 
 .review-slider .review-content {
     width: 250px;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 2rem auto auto 5rem;
     float: left;
     box-sizing: border-box;
@@ -522,6 +533,10 @@ h2 {
     box-sizing: border-box;
 }
 
+.name-review {
+    margin-top: 1rem;
+}
+
 /* Modal */
 #modal-wrapper {
     display: none;
@@ -578,6 +593,12 @@ h2 {
         height: 50px;
     }
 
+    .home-content > h1 {
+        font-size: 1rem;
+        font-weight: 800;
+    }
+
+    /*about us*/
     .column-2 {
         -webkit-column-gap: 3rem; /* Chrome, Safari, Opera */
         -moz-column-gap: 3rem; /* Firefox */
@@ -586,6 +607,10 @@ h2 {
 
     .social-image {
         width: 30px;
+    }
+    /*restaurant*/
+    .restaurants-nav {
+        font-size: 10px;
     }
 
     .restaurants-image {
@@ -644,6 +669,11 @@ h2 {
         padding: 1rem;
     }
 
+    .home-content > h1 {
+        font-size: 0.5rem;
+        font-weight: 800;
+    }
+
     .get-started {
         padding: 0.5rem 2rem;
         font-size: 15px;
@@ -659,6 +689,7 @@ h2 {
         display: inline-block;
     }
 
+    /*about us*/
     .column-2 {
         display: none;
     }
@@ -671,6 +702,7 @@ h2 {
         display: none;
     }
 
+    /*restaurant*/
     .restaurants-nav {
         display: none;
     }
@@ -686,7 +718,7 @@ h2 {
     #ad-bar {
         height: 128px;
     }
-
+    /*events*/
     .sec-deco-line {
         width: 21rem;
         display: block;

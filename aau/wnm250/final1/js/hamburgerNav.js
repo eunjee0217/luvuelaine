@@ -3,6 +3,6 @@ $(function() {
 
     $('.hamburger-nav').click(function() {
         $('.main-nav').toggle();
-        $('.hamburger-nav').text('X');
+        $('.hamburger-nav').text();
     });
 });
