@@ -653,7 +653,7 @@ h2 {
 }
 
 /* Mobile size */
-@media (max-width: 580px) {
+@media (max-width: 600px) {
 
     #home {
         margin-top: -32px;
