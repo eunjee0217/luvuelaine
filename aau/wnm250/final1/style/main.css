@@ -782,7 +782,7 @@ h2 {
         display: none;
     }
 
-    .first-photo{
+    .first-photo > p{
         display: none;
     }
 
