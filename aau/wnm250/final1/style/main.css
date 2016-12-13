@@ -241,6 +241,12 @@ h2 {
     color: #000;
 }
 
+.marker:hover {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+}
+
 /* restaurants */
 .restaurants-nav {
     text-align: center;
@@ -254,6 +260,9 @@ h2 {
 
 .restaurants-nav li:hover {
     text-decoration: underline;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .restaurants-images {
