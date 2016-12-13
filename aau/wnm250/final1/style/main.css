@@ -585,7 +585,7 @@ h2 {
 }
 
 /* Tablet size */
-@media (max-width: 868px) {
+@media (max-width: 900px) {
     #home {
         margin-top: 51px;
     }
